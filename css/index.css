@@ -1,0 +1,68 @@
+/* ---------------------------------- Hero Section -------------------------------- */
+
+.home_text h2{
+    color: #FFFEF0;
+} 
+
+/* ---------------------------------- About us -------------------------------- */
+
+.about_us_content_grid{
+    display:flex;
+    flex-direction: row;
+    gap:4rem;
+    align-items: center;
+}
+
+.about_us_img img {
+    width: 100%;
+}
+
+.about_us_text{
+    flex:2.5;
+}
+
+.about_us_img{
+    flex:1.5;
+}
+
+/* ---------------------------------- Explore our menu -------------------------------- */
+
+.view_menu_grid{
+    display:flex;
+    flex-direction: column;
+    margin-top:2rem;
+}
+
+.view_menu_image_grid {
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    gap: 2rem;
+}
+
+
+.view_menu_image{
+    flex:1;
+}
+
+.view_menu_image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.view_menu_image_grid:hover{
+    transition:0.3s;
+
+    transform: scale(1.03);
+    border-radius: 0.5rem;
+    background-color:#C5C35F ;
+}
+
+.view_menu_image_grid:focus-visible {
+    outline: 0.15rem solid #C5C35F;
+    border-radius: 0.2rem;
+    outline-offset: 0.5rem;
+}
+
+

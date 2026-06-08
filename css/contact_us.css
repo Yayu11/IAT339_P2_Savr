@@ -1,0 +1,74 @@
+/* ---------------------------------- Hero Section -------------------------------- */
+
+.contact_us_text h2 {
+    color: #67704C;
+}
+
+/* ---------------------------------- Contact info -------------------------------- */
+
+.contact_info_detail {
+    border-top: 5rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.contact_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact_info_card {
+    border-right: 0.05rem solid #67704C;
+    border-bottom: 0.05rem solid #67704C;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.email_card .contact_info_img {
+    margin-top: 1.1rem;
+}
+
+.contact_info_card:nth-child(2n) {
+    border-right: none;
+}
+
+.contact_info_card:nth-last-child(-n + 2) {
+    border-bottom: none;
+}
+
+/* ---------------------------------- Text input -------------------------------- */
+
+.text_input_field_column_1 h3 {
+    margin-bottom: 1.8rem;
+}
+
+.text_input_field_grid,
+.text_input_field_column_1 {
+    width: 100%;
+    max-width: 35rem;
+}
+
+.contact_info_detail .text_input_field_grid {
+    width: 100%;
+    display: block;
+}
+
+.form_group input, 
+.form_group textarea {
+    border: 0.08rem solid #67704C;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.8rem;
+
+    width: 100%;
+}
+
+.form_group input:focus, 
+.form_group textarea:focus {
+    outline: none;
+    border: 0.1rem solid #C5C35F;
+    box-shadow: 0 0 5px rgba(197, 195, 95, 0.5);
+}
+
