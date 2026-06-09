@@ -213,6 +213,10 @@ it is the code from week 2: Layout Exercise*/
         gap: 0;
     }
 
+    .home_text h2{
+        margin:0;
+    }
+
     /* ----------------------------------------------- light green box ----------------------------------- */  
 
     .title_bg{
