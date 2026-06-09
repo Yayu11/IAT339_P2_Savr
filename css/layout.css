@@ -32,6 +32,10 @@ it is the code from week 2: Layout Exercise*/
         font-size: 4rem;
     }
 
+    .home_text h2{
+        margin:0;
+    }
+
     /* --------------------- Layout Grids (General Structure) --------------------- */
 
     .text_element_grid,
@@ -211,10 +215,6 @@ it is the code from week 2: Layout Exercise*/
         display: flex;
         flex-direction: column;
         gap: 0;
-    }
-
-    .home_text h2{
-        margin:0;
     }
 
     /* ----------------------------------------------- light green box ----------------------------------- */  
